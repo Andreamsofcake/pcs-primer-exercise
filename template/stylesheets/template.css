@@ -18,7 +18,7 @@ html h1 {
 body {
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-  background-color: #0f0f0f
+  background-color: #3B8686
 }
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
@@ -28,7 +28,7 @@ body {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #aaaaaa;
+  background-color: #79BD9A;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -40,11 +40,11 @@ body {
 .header {
   margin: 20px;
 }
- 	
+  
 .page_heading {
     margin-left: 20px;
 } 
-	
+  
 .contact_information {
     margin-left: 20px;
 }
@@ -64,7 +64,7 @@ body {
   margin-left: 20px;
   padding: 10px;
   border: 1px solid black;
-  background-color: #dddddd;
+  background-color: #A8DBA8;
 
 }
 
@@ -72,23 +72,23 @@ body {
   margin: 0 20px 0 20px;
   padding: 10px;
   border: 1px solid gray;
-  background-color: #ffffff;
+  background-color: #EEF5E2;
 
 }
 
 .prompt_text {
   font-size: 24px;
   padding-left: 10px;
-  color: #000;
+  color: #69D2E7;
 }
 .form_field_table {
   margin-left: 30px;
   border: none;
 }
-.form_field_table td {color: #00f;}
+.form_field_table td {color: #FFFFFF;}
 
 form {
-  color: #00f;
+  color: #FFFFFF;
 }
 .buttons {
   float: right;
