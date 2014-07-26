@@ -25,7 +25,8 @@ body {
 */
 
 .container {
-  width: 900px;
+  width: 90%;
+  max-width: 900px; 
   margin-left: auto;
   margin-right: auto;
   background-color: #79BD9A;
@@ -60,7 +61,7 @@ header {
 article {
   /*margin: 20px;*/
   width: 70%;
-  float: left;
+  float: right;
 }
 
 .article_heading {
@@ -71,7 +72,9 @@ article {
   background-color: #A8DBA8;
 
 }
-
+.header_image {
+  float:right;
+}
 .article_content {
   margin: 0 20px 0 20px;
   padding: 10px;
@@ -117,4 +120,10 @@ nav {
   float: left;
 }
 
+#table_input {
+  width: 71%;
+}
+#table_lable {
+  width: 29%;
+}
 

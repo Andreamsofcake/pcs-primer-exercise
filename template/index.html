@@ -13,17 +13,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- edit the title to include client content-->
-    <title>Template</title>
+    <title>Telling Touch</title>
     
     <!-- The "link" tag identifies your external CSS style sheet. Edit this link to use your particular file  -->
     <link rel="stylesheet" type="text/css" href="stylesheets/template.css" />
 
     <script type="text/javascript" src="scripts/template.js"></script>
-  	
-    <!-- the "style" tag container includes this page's unique style rules -->
-    <style type="text/css">
-  		p, li {color: darkgray;}
-  	</style>
   </head>
 
   <!-- The "body" tag container includes the structure and content of the page -->
@@ -32,6 +27,9 @@
     <div class="container"> <!-- contains everything on the page; used for centering and margins-->
 
     	<header> <!-- contains the constant stuff at the top of the page -->
+        <div class="header_image">
+          <img src="images/logo.jpg" alt="company logo" width="600" height="130"/>
+        </div>
         <div class="validation_badge">
 
           <!-- replace this html with the html snippets that displays your validation badges of the client wants this. -->
@@ -49,10 +47,9 @@
         </div>
 
       	<div class="page_heading">
-          <h1>Template</h1>
-      	</div>
-      	<div class="contact_information">
-          <a href="mailto:contact@email.com">contact@email.com</a>
+          <h1>Tellling Touch</h1>
+          <p> Get in touch 
+            with your true self.</p>
       	</div>
       </header>
 
@@ -67,7 +64,7 @@
         <section class="articles">
         	<article>
           	<div class="article_heading">
-          	 <h1>This is an article</h1> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
+          	 <h2>This is an article</h2> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
           	</div>
           	<div class="article_content">
               <p>This is an article paragraph and other stuff.</p>
@@ -77,7 +74,7 @@
 
           <article>
             <div class="article_heading">
-             <h1>This is another article</h1> <i> mm/dd/yyyy notice how the html for this is basically the same as the one above it.</i>
+             <h2>This is another article</h2> <i> mm/dd/yyyy notice how the html for this is basically the same as the one above it.</i>
             </div>
             <div class="article_content">
               <img class="float_right" src="images/image_placeholder.png" alt="and an image placeholder" height="250" width="250" />
@@ -96,14 +93,14 @@
 
           <article>
             <div class="article_heading">
-             <h1>This article has a form</h1> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
+             <h2>Make an appointment</h2> <i>mm/dd/yyyy - replace with the date and a subject line of your choice</i>
             </div>
             <div class="article_content">
               <p>This is an article paragraph and other stuff.</p>
               <p><a href="#theForm" id="formLink">Show the form</a></p>
               <a id="theForm"></a>
              
-              <form id="responseForm" method="post" action="http:form-echo.herokuapp.com/form-echo">
+              <form id="responseForm" method="post" action="http://form-echo.herokuapp.com/form-echo">
                 <table class="form_field_table">
                   <tr>
                     <td width="29%">Your email:</td>
@@ -147,6 +144,9 @@
     	<!-- the footer area sits at the bottom of the page -->
 
     	<footer>
+      <div class="contact_information">
+          <a href="mailto:contact@email.com">contact@email.com</a>
+        </div>
         <!-- edit the footer to include your name  -->
     	 Copyright &copy; 2013 <i>client name</i>
     	</footer>
